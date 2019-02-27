@@ -9,6 +9,7 @@ class Myfirstbrewscript < Formula
   # depends_on "cmake" => :build
 
   def install
+    bin.install "myfirstbrewscript"
   end
 
 end
