@@ -8,6 +8,8 @@ class Myfirstbrewscript < Formula
   sha256 "91191c63b3d95c617c4ffd3e3335d2910d9c8d9ba8b2bd4342d7ef5c28a6e759"
   # depends_on "cmake" => :build
 
+  depends_on :arch => :x86_64
+
   def install
     bin.install "myfirstbrewscript"
   end
