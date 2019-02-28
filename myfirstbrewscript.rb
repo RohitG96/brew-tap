@@ -9,7 +9,7 @@ class Myfirstbrewscript < Formula
   # depends_on "cmake" => :build
 
   depends_on :arch => :x86_64
-  depends_on "build-essential"
+  depends_on :chrpath
 
   def install
     bin.install "myfirstbrewscript"
